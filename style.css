@@ -1,0 +1,21 @@
+:root{
+    --cor-fundo-cabecalho: #063d1e;
+    --cor-body: #ebe5c5;
+    --cor03:#2fa866;
+
+    --fonte-padrao: normal normal 16px "Arial", "Helvetica", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor-body);
+}
+
+a.externo::after{
+   content: '\00A0\1F517';
+}
+

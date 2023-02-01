@@ -1,0 +1,20 @@
+.rodape{
+    background-color: #063d1e;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: white;
+    font-weight:bold ;
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+    color: #2fa866;
+}

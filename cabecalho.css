@@ -1,0 +1,55 @@
+.cabecalho{
+    background:linear-gradient(to bottom, var(--cor03), var(--cor-fundo-cabecalho) );
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    box-shadow: 0px 0px 5px black;   
+}
+
+
+header > h1{
+    margin-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 0px 0px 5px black;
+}
+header > p {
+    max-width: 600px;
+    margin: auto;
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-bottom: 70px;
+    font: var(--fonte-padrao);
+    text-shadow: 1px 2px 10px black;
+    font-size: 1.2em;
+}
+
+.menu{
+    text-decoration: none;
+    display: flex;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.menu > .transicao{
+    text-decoration: none;
+    color: #83e1ad;
+    margin-right: 8px;
+    font: var(--fonte-padrao);
+    font-weight: bold;
+    padding: 10px;
+    transition: 700ms;
+    border-radius: 10px;
+}
+
+.transicao:hover{
+   background-color: rgb(101, 175, 101);
+   color: black;
+
+}
+
+@media screen and (max-width:350px){
+    header > p {
+        display: none;
+    }
+}
