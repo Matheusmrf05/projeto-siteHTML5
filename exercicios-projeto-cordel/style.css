@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --fonte1:"Verdana", "Geneva" , "Tahoma" , sans-serif;
+    --fonte2:"Passion One", cursive;
+    --fonte3:"Sriracha", cursive;
+}

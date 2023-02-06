@@ -4,37 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testagem de imagens de fundo</title>
+    <title>Testagem de posicionamento vertical</title>
     <style>
-        body{
-        
+        .elemento-pai{
             height: 98vh;
-            background: aqua url('imagens/wallpaper002.jpg') center center no-repeat fixed;
-            background-size: cover;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            background-color: red;
+            position: relative;
         }
 
-        main{
-            background-color: white;
-            width: 400px;
-            padding: 10px;
-            margin: auto;
-            border: 1px solid red;
-            border-radius: 15px;
+        .elemento-filho{
+            background-color: blue;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50% , -50%);
+            
         }
     </style>
 </head>
 <body>
-    <main>
-        <h1>Testagem de backgrounds</h1>
-    
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam, 
-        voluptates voluptas provident, cupiditate dolorum rem laudantium deserunt
-         magnam quisquam facilis nostrum soluta aspernatur officia! Fuga animi quod molestias similique? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum quaerat 
-         sapiente reprehenderit. Voluptatem repudiandae quibusdam molestiae sequi
-          dicta minus laboriosam officiis ex. Laudantium sit, modi dolorem accusamus vero consequatur. Cum! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-           Id eius facere, ullam porro dicta omnis quia velit neque officiis cumque obcaecati quis iusto numquam incidunt culpa debitis voluptate mollitia maiores.</p>
-    </main>
-    
+    <section class="elemento-pai">
+        <article class="elemento-filho">
+
+        </article>
+    </section>
 
 </body>
 </html>
